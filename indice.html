@@ -1,66 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Catalogo de Calcomanias</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body{
-            background:#111;
-            color:white;
-            font-family:Arial;
-            text-align:center;
-            margin:0;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        header{
-            background:#c40000;
-            padding:25px;
-        }
+<title>KevDesing</title>
 
-        h1{
-            margin:0;
-        }
+<style>
 
-        .contenido{
-            padding:30px;
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        .boton{
-            background:#25D366;
-            color:white;
-            padding:15px 25px;
-            border-radius:10px;
-            text-decoration:none;
-            display:inline-block;
-            margin-top:20px;
-            font-weight:bold;
-        }
+body{
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#0a0a0a,#1b1b1b,#700000);
+    color:white;
+    text-align:center;
+}
 
-        .catalogo{
-            background:#222;
-            margin:20px;
-            padding:20px;
-            border-radius:15px;
-        }
-    </style>
+header{
+    padding:50px 20px;
+    background:rgba(0,0,0,.55);
+    box-shadow:0 0 25px rgba(255,0,0,.5);
+}
+
+header h1{
+    font-size:42px;
+    color:#ff2d2d;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#ddd;
+    font-size:18px;
+}
+
+.contenedor{
+    padding:40px 20px;
+}
+
+.card{
+    max-width:500px;
+    margin:auto;
+    background:#171717;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 0 25px rgba(255,0,0,.35);
+}
+
+.card h2{
+    margin-bottom:15px;
+    color:#ff3d3d;
+}
+
+.card p{
+    margin-bottom:25px;
+    color:#ccc;
+}
+
+.boton{
+    display:block;
+    width:100%;
+    margin:15px auto;
+    padding:16px;
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.catalogo{
+    background:#c10000;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.instagram{
+    background:#d62976;
+}
+
+.boton:hover{
+    transform:scale(1.04);
+}
+
+footer{
+    margin-top:40px;
+    padding:25px;
+    color:#999;
+}
+
+</style>
 </head>
+
 <body>
 
 <header>
-    <h1>MI CATALOGO</h1>
-    <p>Calcomanías para motos</p>
+    <h1>KevDesing</h1>
+    <p>Calcomanías y diseños para motos</p>
 </header>
 
-<div class="contenido">
+<div class="contenedor">
 
-    <div class="catalogo">
-        <h2>Catalogo en construcción 🚀</h2>
-        <p>Aquí aparecerán los productos y diseños.</p>
-    </div>
+<div class="card">
 
-    <a class="boton" href="#">WhatsApp</a>
+<h2>Catálogo Oficial</h2>
+
+<p>
+Encuentra diseños y calcomanías para diferentes modelos de motos.
+</p>
+
+<a class="boton catalogo"
+href="catalogo%20calcomanias%20KevDesing.pdf"
+target="_blank">
+📘 VER CATÁLOGO
+</a>
+
+<a class="boton whatsapp"
+href="https://wa.me/57320773845?text=Hola%20quiero%20informacion%20sobre%20las%20calcomanias"
+target="_blank">
+💬 WHATSAPP
+</a>
+
+<a class="boton instagram"
+href="https://instagram.com/kev_desing"
+target="_blank">
+📷 INSTAGRAM
+</a>
 
 </div>
+
+</div>
+
+<footer>
+KevDesing © 2025
+</footer>
 
 </body>
 </html>
