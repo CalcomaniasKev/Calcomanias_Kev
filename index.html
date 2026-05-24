@@ -21,10 +21,29 @@ body{
     text-align:center;
 }
 
+/* HEADER */
+
 header{
     padding:60px 20px;
     background:rgba(0,0,0,.55);
     box-shadow:0 0 25px rgba(255,0,0,.45);
+}
+
+.logo-titulo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.logo-titulo img{
+    width:110px;
+    height:auto;
+}
+
+.logo-titulo div{
+    text-align:center;
 }
 
 header h1{
@@ -38,6 +57,8 @@ header p{
     color:#d8d8d8;
     font-size:18px;
 }
+
+/* CONTENIDO */
 
 .contenedor{
     padding:40px 20px;
@@ -62,6 +83,8 @@ header p{
     margin-bottom:25px;
     line-height:1.5;
 }
+
+/* BOTONES */
 
 .boton{
     display:block;
@@ -92,6 +115,8 @@ header p{
     transform:scale(1.04);
 }
 
+/* FOOTER */
+
 footer{
     margin-top:45px;
     padding:25px;
@@ -104,8 +129,20 @@ footer{
 <body>
 
 <header>
-    <h1>KEV DESINGS</h1>
-    <p>Calcomanías y diseños para motos</p>
+
+<div class="logo-titulo">
+
+<img src="logo%20calcomanias.png" alt="Logo">
+
+<div>
+<h1>KEV DESINGS</h1>
+<p>Calcomanías y diseños para motos</p>
+</div>
+
+<img src="logo%20calcomanias.png" alt="Logo">
+
+</div>
+
 </header>
 
 <div class="contenedor">
