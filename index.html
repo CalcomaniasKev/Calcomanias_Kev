@@ -16,15 +16,6 @@
 
 body{
     font-family:Arial, sans-serif;
-    background:black;
-    color:white;
-    text-align:center;
-}
-
-/* HEADER */
-
-header{
-    padding:50px 20px;
 
     background:linear-gradient(
         to bottom,
@@ -33,6 +24,16 @@ header{
         #1a0000 90%,
         #330000 100%
     );
+
+    color:white;
+    text-align:center;
+}
+
+/* HEADER */
+
+header{
+    padding:50px 20px;
+    background:black;
 }
 
 .logo-titulo{
@@ -83,10 +84,13 @@ header p{
     border:1px solid rgba(255,0,0,.10);
 }
 
-.card h2{
-    color:#ff4040;
-    margin-bottom:15px;
-    font-size:30px;
+/* IMAGEN CATALOGO */
+
+.catalogo-img{
+    width:100%;
+    max-width:420px;
+    height:auto;
+    margin-bottom:20px;
 }
 
 .card p{
@@ -176,7 +180,9 @@ footer{
 
 <div class="card">
 
-<h2>Catálogo Oficial</h2>
+<!-- IMAGEN CATALOGO -->
+
+<img src="./catalogo.png" alt="Catálogo Oficial" class="catalogo-img">
 
 <p>
 Explora nuestros diseños y encuentra las calcomanías perfectas para tu moto.
