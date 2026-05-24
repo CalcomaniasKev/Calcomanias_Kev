@@ -16,7 +16,7 @@
 
 body{
     font-family:Arial, sans-serif;
-    background:linear-gradient(135deg,#0b0b0b,#161616,#730000);
+    background:#000000;
     color:white;
     text-align:center;
 }
@@ -24,9 +24,9 @@ body{
 /* HEADER */
 
 header{
-    padding:60px 20px;
-    background:rgba(0,0,0,.55);
-    box-shadow:0 0 25px rgba(255,0,0,.45);
+    padding:50px 20px;
+    background:linear-gradient(135deg,#000000,#0d0d0d,#2b0000);
+    box-shadow:0 0 25px rgba(255,0,0,.35);
 }
 
 .logo-titulo{
@@ -42,47 +42,54 @@ header{
 .logo-principal{
     width:140px;
     height:auto;
-    margin-bottom:20px;
+    margin-bottom:25px;
+    border-radius:20px;
 }
 
 /* TIPOGRAFIA */
 
 .tipografia{
-    width:700px;
+    width:750px;
     max-width:95%;
     height:auto;
-    margin-bottom:15px;
+    margin-bottom:20px;
+    border-radius:20px;
 }
 
+/* TEXTOS */
+
 header p{
-    color:#d8d8d8;
+    color:#e0e0e0;
     font-size:18px;
 }
 
 /* CONTENIDO */
 
 .contenedor{
-    padding:40px 20px;
+    padding:50px 20px;
 }
 
 .card{
-    max-width:520px;
+    max-width:550px;
     margin:auto;
-    background:#181818;
+    background:linear-gradient(145deg,#111111,#1b1b1b);
     border-radius:22px;
     padding:35px;
-    box-shadow:0 0 25px rgba(255,0,0,.30);
+    box-shadow:0 0 25px rgba(255,0,0,.25);
+    border:1px solid rgba(255,0,0,.15);
 }
 
 .card h2{
     color:#ff4040;
     margin-bottom:15px;
+    font-size:30px;
 }
 
 .card p{
-    color:#cfcfcf;
+    color:#d0d0d0;
     margin-bottom:25px;
-    line-height:1.5;
+    line-height:1.6;
+    font-size:17px;
 }
 
 /* BOTONES */
@@ -113,7 +120,8 @@ header p{
 }
 
 .boton:hover{
-    transform:scale(1.04);
+    transform:scale(1.05);
+    opacity:.92;
 }
 
 /* FOOTER */
@@ -122,6 +130,7 @@ footer{
     margin-top:45px;
     padding:25px;
     color:#9a9a9a;
+    font-size:15px;
 }
 
 </style>
